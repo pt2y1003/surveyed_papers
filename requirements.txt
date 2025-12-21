@@ -1,0 +1,11 @@
+# 推奨: Python 3.12.x（3.10.xでも概ねOK）
+# 目的: tbats の依存(pmdarima)が NumPy 2 系で壊れやすいので NumPy<2 で固定する :contentReference[oaicite:3]{index=3}
+
+numpy==1.26.4
+scipy==1.11.4
+
+pandas==2.2.3
+
+scikit-learn==1.5.2  # Py3.12対応 :contentReference[oaicite:4]{index=4}
+pmdarima==2.0.4      # Py3.12 wheelあり :contentReference[oaicite:5]{index=5}
+tbats==1.1.3         # 最新は1.1.3 :contentReference[oaicite:6]{index=6}
